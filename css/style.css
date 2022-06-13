@@ -157,6 +157,12 @@ main img{
     padding: 20px;
 }
 
+/* animaciones para el desafio */
+
+header img:hover{
+    transform: scale(1.15);
+}
+
 @MEDIA screen and (max-width:600px) {
     body{
         background-color: white;

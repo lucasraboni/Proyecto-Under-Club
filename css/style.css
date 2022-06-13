@@ -1,0 +1,207 @@
+/* reset */
+
+*{
+    margin: 4;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 680px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.mapa{
+    width: 100%;
+}
+
+div{
+    display: block;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: #e8e8e8;
+}
+
+main h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    background-color: #e8e8e8;
+}
+
+h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 2rem;
+    background-color: #e8e8e8;
+}
+
+h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 2rem;
+    background-color: #e8e8e8;
+}
+
+h6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 2rem;
+    background-color: #e8e8e8;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+}
+
+footer .redes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255,.2);
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+}
+
+.evento{
+    width: 100%;
+}
+
+.inicio{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+.inicio:hover{
+    color: white;
+    font-size: 25px;
+}
+
+.historiafoto{
+    width: 100%;
+}
+
+.imagen1{
+    width: 100%;
+    border-radius: 2rem
+}
+
+.imagen2{
+    width: 100%;
+    border-radius: 2rem
+}
+
+.imagen3{
+    width: 100%;
+    border-radius: 2rem
+}
+
+.imagen4{
+    width: 100%;
+    border-radius: 2rem
+}
+
+.imagen5{
+    width: 100%;
+    border-radius: 2rem
+}
+
+.imagen6{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+main img{
+    padding: 20px;
+}
+
+@MEDIA screen and (max-width:600px) {
+    body{
+        background-color: white;
+    }   
+
+    header img{
+        width: 100%;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    ul{
+        display: flex;
+        gap: 10px;
+    }
+    li{
+        list-style: none;
+    }
+}
+
+@MEDIA screen and (max-width:480px) {
+
+    body{
+        background-color: white;
+    }
+    header img{
+        width: 100%;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    ul{
+        display: flex;
+        gap: 10px;
+    }
+    li{
+        list-style: none;
+    }
+
+}

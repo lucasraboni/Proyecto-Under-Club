@@ -157,6 +157,19 @@ main img{
     padding: 20px;
 }
 
+.card{
+    display: inline-block;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;                       
+}
+                                         
+p{
+    text-align: start; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 /* animaciones para el desafio */
 
 header img:hover{

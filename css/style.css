@@ -169,6 +169,72 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sonido{
+    margin: 4rem;
+    text-align: center;
+}
+
+.funktionlectura{
+    margin: 4rem;
+    text-align: center;
+}
+
+.historia{
+    margin: 8rem;
+    text-align: center;
+}
+
+fieldset{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;   
+}
+
+div label{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;   
+}
+
+.botones{
+    display: flex;
+}
+.botonentrar{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;   
+}
+
+.botoncrear{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;   
+}
+
+.botonborrar{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;   
+}
+
 
 /* animaciones para el desafio */
 

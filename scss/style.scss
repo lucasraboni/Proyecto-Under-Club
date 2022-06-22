@@ -1,0 +1,228 @@
+// arrancamos con esto XD
+/* arrancamos con esto */
+
+@import "utilities/variables";
+
+*{
+    margin: 4;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 680px;
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+        li{
+            list-style: none;
+        }
+    }
+    img:hover{
+        transform: scale(1.15);
+    }
+}
+
+div{
+    display: block;
+}
+
+main {
+    text-align: center;
+    h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2rem;
+        background-color: #e8e8e8;
+    }
+    h3{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2rem;
+        background-color: #e8e8e8;
+    }
+    h4{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2rem;
+        background-color: #e8e8e8;
+    }
+    h5{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2rem;
+        background-color: #e8e8e8;
+    }
+    h6{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2rem;
+        background-color: #e8e8e8;
+    }
+    .evento{
+        width: 100%;
+    }
+    .mapa{
+        width: 100%;
+    }
+    img{
+        padding: 20px;
+    }
+    p{
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .sonido{
+        margin: 4rem;
+        text-align: center;
+    }
+    .funktionlectura{
+        margin: 4rem;
+        text-align: center;
+    }
+}
+
+footer{
+    background-color: $color-principal;
+    color: $color-secundario;
+    padding: 40px 0;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+    .redes{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255,.2);
+        justify-content: center;
+        color: $color-secundario;
+        text-decoration: none;
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+        li{
+            list-style: none;
+        }
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: $color-secundario;
+    }
+    ul li a:hover{
+        text-decoration: underline;
+        color: $color-secundario;
+        font-size: 25px;
+    }
+    .inicio{
+        text-decoration: none;
+        color: $color-secundario;
+    }
+    .inicio:hover{
+        font-size: 25px;
+    }
+}
+
+/* historia */
+
+.historiafoto{
+    width: 100%;
+}
+
+.historia{
+    margin: 8rem;
+    text-align: center;
+}
+
+/* eventos */
+
+.card{
+    display: inline-block;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* crear y entrar */
+
+fieldset{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: $color-principal;
+    color: $color-secundario;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    div label{
+        padding: 1rem;
+    }
+    .botones{
+        display: flex;
+    }
+    .boton{
+        display: inline-block;
+        background-color: $color-secundario;
+        color: $color-principal;
+        border-radius: 1rem;
+        width: 50%;
+    }
+}
+
+/* Galeria */
+
+.imagenes{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+/* MQ */
+
+@MEDIA screen and (max-width:600px)and (min-width:481px) {
+    
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+    
+    ul{
+        display: flex;
+        gap: 10px;
+        li{
+            list-style: none;
+        }
+    }
+
+}
+
+@MEDIA screen and (max-width:480px) and (min-width:320px) {
+
+   
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+    
+    ul{
+        display: flex;
+        gap: 10px;
+        li{
+            list-style: none;
+        }
+    }
+   
+}
+

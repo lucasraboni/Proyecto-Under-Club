@@ -1,292 +1,165 @@
-/* reset */
+/* arrancamos con esto */
+* {
+  margin: 4;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 4;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header img{
-    width: 680px;
-}
-
-header{
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  header img {
+    width: 680px; }
+  header ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    gap: 10px; }
+    header ul li {
+      list-style: none; }
+  header img:hover {
+    transform: scale(1.15); }
 
-ul{
-    display: flex;
-    gap: 10px;
-}
+div {
+  display: block; }
 
-li{
-    list-style: none;
-}
-
-.mapa{
-    width: 100%;
-}
-
-div{
-    display: block;
-}
-
-h2{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    border-radius: 2rem;
-    background-color: #e8e8e8;
-}
-
-main h3{
-    text-align: center;
+main {
+  text-align: center; }
+  main h2 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
-    background-color: #e8e8e8;
-}
-
-h4{
-    text-align: center;
+    background-color: #e8e8e8; }
+  main h3 {
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     border-radius: 2rem;
-    background-color: #e8e8e8;
-}
-
-h5{
-    text-align: center;
+    background-color: #e8e8e8; }
+  main h4 {
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     border-radius: 2rem;
-    background-color: #e8e8e8;
-}
-
-h6{
-    text-align: center;
+    background-color: #e8e8e8; }
+  main h5 {
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     border-radius: 2rem;
-    background-color: #e8e8e8;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    padding: 40px 0;
-    text-align: center;
-    display: grid;
+    background-color: #e8e8e8; }
+  main h6 {
     font-size: 20px;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    background-color: #e8e8e8; }
+  main .evento {
+    width: 100%; }
+  main .mapa {
+    width: 100%; }
+  main img {
+    padding: 20px; }
+  main p {
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif; }
+  main .sonido {
+    margin: 4rem;
+    text-align: center; }
+  main .funktionlectura {
+    margin: 4rem;
+    text-align: center; }
 
-footer .redes{
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  display: grid;
+  font-size: 20px; }
+  footer .redes {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255,.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     justify-content: center;
     color: white;
+    text-decoration: none; }
+  footer ul {
+    display: flex;
+    gap: 10px; }
+    footer ul li {
+      list-style: none; }
+  footer ul li a {
     text-decoration: none;
-}
-
-footer ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-footer ul li a:hover{
+    color: white; }
+  footer ul li a:hover {
     text-decoration: underline;
     color: white;
-    font-size: 25px;
-}
-
-.evento{
-    width: 100%;
-}
-
-.inicio{
-    text-align: center;
+    font-size: 25px; }
+  footer .inicio {
     text-decoration: none;
-    color: white;
-}
+    color: white; }
+  footer .inicio:hover {
+    font-size: 25px; }
 
+/* historia */
+.historiafoto {
+  width: 100%; }
 
-.inicio:hover{
-    color: white;
-    font-size: 25px;
-}
+.historia {
+  margin: 8rem;
+  text-align: center; }
 
-.historiafoto{
-    width: 100%;
-}
+/* eventos */
+.card {
+  display: inline-block;
+  margin: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; }
 
-.imagen1{
-    width: 100%;
-    border-radius: 2rem
-}
-
-.imagen2{
-    width: 100%;
-    border-radius: 2rem
-}
-
-.imagen3{
-    width: 100%;
-    border-radius: 2rem
-}
-
-.imagen4{
-    width: 100%;
-    border-radius: 2rem
-}
-
-.imagen5{
-    width: 100%;
-    border-radius: 2rem
-}
-
-.imagen6{
-    width: 100%;
-    border-radius: 2rem;
-}
-
-main img{
-    padding: 20px;
-}
-
-.card{
+/* crear y entrar */
+fieldset {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; }
+  fieldset div label {
+    padding: 1rem; }
+  fieldset .botones {
+    display: flex; }
+  fieldset .boton {
     display: inline-block;
-    margin: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;                       
-}
-                                         
-p{
-    text-align: start; 
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.sonido{
-    margin: 4rem;
-    text-align: center;
-}
-
-.funktionlectura{
-    margin: 4rem;
-    text-align: center;
-}
-
-.historia{
-    margin: 8rem;
-    text-align: center;
-}
-
-fieldset{
-    padding: 1rem;
-    margin: 2rem;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;   
-}
+    width: 50%; }
 
-div label{
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;   
-}
+/* Galeria */
+.imagenes {
+  width: 100%;
+  border-radius: 2rem; }
 
-.botones{
+/* MQ */
+@MEDIA screen and (max-width:600px)and (min-width:481px) {
+  header {
     display: flex;
-}
-.botonentrar{
-    display: inline-block;
-    background-color: white;
-    color: black;
-    border-radius: 1rem;
-    width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;   
-}
+    justify-content: space-evenly;
+    align-items: center; }
+    header img {
+      width: 100%; }
+  ul {
+    display: flex;
+    gap: 10px; }
+    ul li {
+      list-style: none; } }
 
-.botoncrear{
-    display: inline-block;
-    background-color: white;
-    color: black;
-    border-radius: 1rem;
-    width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;   
-}
-
-.botonborrar{
-    display: inline-block;
-    background-color: white;
-    color: black;
-    border-radius: 1rem;
-    width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;   
-}
-
-
-/* animaciones para el desafio */
-
-header img:hover{
-    transform: scale(1.15);
-}
-
-@MEDIA screen and (max-width:600px) {
-    body{
-        background-color: white;
-    }   
-
-    header img{
-        width: 100%;
-    }
-    
-    header{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    ul{
-        display: flex;
-        gap: 10px;
-    }
-    li{
-        list-style: none;
-    }
-}
-
-@MEDIA screen and (max-width:480px) {
-
-    body{
-        background-color: white;
-    }
-    header img{
-        width: 100%;
-    }
-    
-    header{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    ul{
-        display: flex;
-        gap: 10px;
-    }
-    li{
-        list-style: none;
-    }
-
-}
+@MEDIA screen and (max-width:480px) and (min-width:320px) {
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    header img {
+      width: 100%; }
+  ul {
+    display: flex;
+    gap: 10px; }
+    ul li {
+      list-style: none; } }

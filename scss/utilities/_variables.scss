@@ -1,2 +1,16 @@
 $color-principal:black;
 $color-secundario: white;
+
+@mixin titulos{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    background-color: #e8e8e8;
+}
+
+//extend
+
+%informacion {
+    margin: 4rem;
+    text-align: center;
+}

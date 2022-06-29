@@ -1,4 +1,8 @@
 /* arrancamos con esto */
+main .sonido, main .funktionlectura {
+  margin: 4rem;
+  text-align: center; }
+
 * {
   margin: 4;
   padding: 0;
@@ -24,27 +28,27 @@ div {
 main {
   text-align: center; }
   main h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     background-color: #e8e8e8; }
   main h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     background-color: #e8e8e8; }
   main h4 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     background-color: #e8e8e8; }
   main h5 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     background-color: #e8e8e8; }
   main h6 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2rem;
     background-color: #e8e8e8; }
@@ -56,13 +60,14 @@ main {
     padding: 20px; }
   main p {
     text-align: start;
-    font-family: Arial, Helvetica, sans-serif; }
-  main .sonido {
-    margin: 4rem;
-    text-align: center; }
-  main .funktionlectura {
-    margin: 4rem;
-    text-align: center; }
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; }
+  main a {
+    color: black;
+    font-weight: bold; }
+  main a:hover {
+    font-size: 15px;
+    color: black; }
 
 footer {
   background-color: black;
@@ -162,4 +167,6 @@ fieldset {
     display: flex;
     gap: 10px; }
     ul li {
-      list-style: none; } }
+      list-style: none; }
+  footer ul {
+    flex-wrap: wrap; } }

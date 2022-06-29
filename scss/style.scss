@@ -35,34 +35,19 @@ div{
 main {
     text-align: center;
     h2{
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 2rem;
-        background-color: #e8e8e8;
+        @include titulos;
     }
     h3{
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 2rem;
-        background-color: #e8e8e8;
+        @include titulos;
     }
     h4{
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 2rem;
-        background-color: #e8e8e8;
+        @include titulos;
     }
     h5{
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 2rem;
-        background-color: #e8e8e8;
+        @include titulos;
     }
     h6{
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 2rem;
-        background-color: #e8e8e8;
+       @include titulos;
     }
     .evento{
         width: 100%;
@@ -76,14 +61,21 @@ main {
     p{
         text-align: start;
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px
     }
     .sonido{
-        margin: 4rem;
-        text-align: center;
+        @extend %informacion;
     }
     .funktionlectura{
-        margin: 4rem;
-        text-align: center;
+        @extend %informacion;
+    } 
+    a{
+        color: black;
+        font-weight: bold;
+    } 
+    a:hover{
+        font-size: 15px;
+        color: black;
     }
 }
 
@@ -224,5 +216,8 @@ fieldset{
         }
     }
    
+    footer ul{
+        flex-wrap: wrap;
+    }
 }
 

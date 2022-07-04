@@ -103,6 +103,10 @@ footer{
         justify-content: center;
     }
    
+    ul li img{
+    padding: 10px;
+   }
+
     .redes a{
         text-decoration: none;
     }
@@ -110,6 +114,7 @@ footer{
     ul li a{
         text-decoration: none;
         color: $color-secundario;
+        
     }
     ul li a:hover{
         text-decoration: underline;

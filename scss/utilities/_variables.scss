@@ -8,6 +8,12 @@ $color-secundario: white;
     background-color: #e8e8e8;
 }
 
+@mixin titulos-telefonos{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    background-color: #e8e8e8;
+}
 //extend
 
 %informacion {

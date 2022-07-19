@@ -20,7 +20,8 @@ header {
     header ul li {
       list-style: none; }
   header img:hover {
-    transform: scale(1.15); }
+    transform: scale(1.15);
+    transition: 0.5s; }
 
 div {
   display: block; }
